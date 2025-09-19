@@ -1,16 +1,16 @@
 import type React from "react"
 import type { Metadata } from "next"
-// import { GeistSans } from "geist/font/sans"
+import { Geist } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import { Suspense } from "react"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { AuthProvider } from "@/components/auth-provider"
 
-// const geist = GeistSans({
-//   subsets: ["latin"],
-//   variable: "--font-geist-sans",
-// })
+const geist = Geist({
+  subsets: ["latin"],
+  variable: "--font-geist-sans",
+})
 
 export const metadata: Metadata = {
   title: "AttendanceAI - Face Recognition Attendance System",
@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={geist.variable}>
       <body className="font-sans antialiased">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <AuthProvider>
