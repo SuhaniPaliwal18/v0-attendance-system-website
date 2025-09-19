@@ -31,10 +31,10 @@ import { useAuth } from "@/components/auth-provider"
 
 // Mock data
 const teacherData = {
-  name: "Dr. Sarah Johnson",
-  employeeId: "T2021001",
+  name: "Mr. Aditya Maheshwari",
+  employeeId: "T101",
   department: "Computer Science",
-  email: "sarah.johnson@university.edu",
+  email: "T101.aditya@technonjr.org",
   subjects: ["Data Structures", "Database Systems", "Web Development"],
 }
 
@@ -66,11 +66,11 @@ const classes = [
 ]
 
 const studentsData = [
-  { id: "CS2021001", name: "John Doe", attendance: 87, status: "present", lastSeen: "Today 9:05 AM" },
-  { id: "CS2021002", name: "Jane Smith", attendance: 92, status: "present", lastSeen: "Today 9:03 AM" },
-  { id: "CS2021003", name: "Mike Johnson", attendance: 78, status: "absent", lastSeen: "Yesterday 2:15 PM" },
-  { id: "CS2021004", name: "Emily Davis", attendance: 95, status: "present", lastSeen: "Today 9:01 AM" },
-  { id: "CS2021005", name: "Alex Wilson", attendance: 82, status: "present", lastSeen: "Today 9:07 AM" },
+  { id: "24ETCCS163", name: "SHUBHANSH", attendance: 87, status: "present", lastSeen: "Today 9:05 AM" },
+  { id: "24ETCCS058", name: "HINESH", attendance: 92, status: "present", lastSeen: "Today 9:03 AM" },
+  { id: "24ETCCS133", name: "PAYAL", attendance: 78, status: "absent", lastSeen: "Yesterday 2:15 PM" },
+  { id: "24ETCCS175", name: "TUSHAR", attendance: 95, status: "present", lastSeen: "Today 9:01 AM" },
+  { id: "24ETCCS166", name: "SUHANI", attendance: 82, status: "present", lastSeen: "Today 9:07 AM" },
 ]
 
 const attendanceStats = [

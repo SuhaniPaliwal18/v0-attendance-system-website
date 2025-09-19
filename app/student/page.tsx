@@ -28,11 +28,11 @@ import { useAuth } from "@/components/auth-provider"
 
 // Mock data
 const studentData = {
-  name: "John Doe",
-  rollNo: "CS2021001",
-  class: "Computer Science - 3rd Year",
-  email: "john.doe@student.edu",
-  profileImage: "/diverse-student-profiles.png",
+  name: "Bhavy Tamboli",
+  rollNo: "24ETCCS301",
+  class: "Computer Science - 2rd Year",
+  email: "24etccs301.bhavy@technonjr.org",
+  profileImage: "/Users/shubhanshnagda/Downloads/WhatsApp Image 2025-09-19 at 10.35.58.jpeg",
 }
 
 const attendanceData = [

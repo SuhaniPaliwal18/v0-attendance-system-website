@@ -41,8 +41,8 @@ import { useAuth } from "@/components/auth-provider"
 const liveAttendanceData = [
   {
     id: 1,
-    studentName: "John Doe",
-    studentId: "CS2021001",
+    studentName: "Shubhansh",
+    studentId: "24ETCCS163",
     class: "CS-301",
     checkInTime: "09:03:45",
     status: "present",
@@ -51,8 +51,8 @@ const liveAttendanceData = [
   },
   {
     id: 2,
-    studentName: "Jane Smith",
-    studentId: "CS2021002",
+    studentName: "Tushar",
+    studentId: "24ETCCS175",
     class: "CS-301",
     checkInTime: "09:05:12",
     status: "present",
@@ -61,8 +61,8 @@ const liveAttendanceData = [
   },
   {
     id: 3,
-    studentName: "Mike Johnson",
-    studentId: "CS2021003",
+    studentName: "Hinesh",
+    studentId: "24ETCCS058",
     class: "CS-302",
     checkInTime: "11:02:30",
     status: "present",
@@ -73,32 +73,32 @@ const liveAttendanceData = [
 
 const studentsData = [
   {
-    id: "CS2021001",
-    name: "John Doe",
+    id: "24ETCCS163",
+    name: "Shubhansh",
     class: "CS-301",
     attendance: 87,
     email: "john@student.edu",
     phone: "+1234567890",
   },
   {
-    id: "CS2021002",
-    name: "Jane Smith",
+    id: "24ETCCS166",
+    name: "Suhani",
     class: "CS-301",
     attendance: 92,
     email: "jane@student.edu",
     phone: "+1234567891",
   },
   {
-    id: "CS2021003",
-    name: "Mike Johnson",
+    id: "24ETCCS058",
+    name: "Hinesh",
     class: "CS-302",
     attendance: 78,
     email: "mike@student.edu",
     phone: "+1234567892",
   },
   {
-    id: "CS2021004",
-    name: "Emily Davis",
+    id: "24ETCCS133",
+    name: "Payal",
     class: "CS-303",
     attendance: 95,
     email: "emily@student.edu",
@@ -109,7 +109,7 @@ const studentsData = [
 const teachersData = [
   {
     id: "T2021001",
-    name: "Dr. Sarah Johnson",
+    name: "Mr. Aditya Maheshwari",
     department: "Computer Science",
     classes: 3,
     students: 125,
@@ -117,7 +117,7 @@ const teachersData = [
   },
   {
     id: "T2021002",
-    name: "Prof. Michael Brown",
+    name: "Dr. Rimpy Bishnoi",
     department: "Computer Science",
     classes: 2,
     students: 85,
@@ -125,7 +125,7 @@ const teachersData = [
   },
   {
     id: "T2021003",
-    name: "Dr. Lisa Wilson",
+    name: "Dr. Rekha Tiwari",
     department: "Mathematics",
     classes: 4,
     students: 160,
@@ -136,7 +136,7 @@ const teachersData = [
 const pendingRequests = [
   {
     id: 1,
-    name: "Alex Thompson",
+    name: "Dhruv",
     email: "alex@student.edu",
     role: "student",
     requestDate: "2024-01-15",
@@ -144,7 +144,7 @@ const pendingRequests = [
   },
   {
     id: 2,
-    name: "Dr. Robert Lee",
+    name: "Dr. Naresh Mali",
     email: "robert@university.edu",
     role: "teacher",
     requestDate: "2024-01-14",
@@ -152,7 +152,7 @@ const pendingRequests = [
   },
   {
     id: 3,
-    name: "Maria Garcia",
+    name: "Shreya",
     email: "maria@student.edu",
     role: "student",
     requestDate: "2024-01-13",
@@ -189,7 +189,7 @@ export default function AdminPortal() {
       if (Math.random() > 0.95) {
         const newEntry = {
           id: Date.now(),
-          studentName: "New Student",
+          studentName: "Payal",
           studentId: `CS202${Math.floor(Math.random() * 1000)}`,
           class: "CS-301",
           checkInTime: new Date().toLocaleTimeString(),
